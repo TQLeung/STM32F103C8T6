@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\System;.\Library;.\User</IncludePath>
+              <IncludePath>.\Start;.\Library;.\System;.\User</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -378,37 +378,37 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>Start</GroupName>
           <Files>
             <File>
               <FileName>core_cm3.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\System\core_cm3.c</FilePath>
+              <FilePath>.\Start\core_cm3.c</FilePath>
             </File>
             <File>
               <FileName>core_cm3.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\System\core_cm3.h</FilePath>
+              <FilePath>.\Start\core_cm3.h</FilePath>
             </File>
             <File>
               <FileName>startup_stm32f10x_md.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\System\startup_stm32f10x_md.s</FilePath>
+              <FilePath>.\Start\startup_stm32f10x_md.s</FilePath>
             </File>
             <File>
               <FileName>stm32f10x.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\System\stm32f10x.h</FilePath>
+              <FilePath>.\Start\stm32f10x.h</FilePath>
             </File>
             <File>
               <FileName>system_stm32f10x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\System\system_stm32f10x.c</FilePath>
+              <FilePath>.\Start\system_stm32f10x.c</FilePath>
             </File>
             <File>
               <FileName>system_stm32f10x.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\System\system_stm32f10x.h</FilePath>
+              <FilePath>.\Start\system_stm32f10x.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -644,6 +644,21 @@
               <FileName>stm32f10x_wwdg.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Library\stm32f10x_wwdg.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>System</GroupName>
+          <Files>
+            <File>
+              <FileName>Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>Delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Delay.h</FilePath>
             </File>
           </Files>
         </Group>
